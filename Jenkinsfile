@@ -20,7 +20,7 @@ agent any
     }
     stage("deploy"){
       steps{
-        sh "docker run -d -p 5000:5000 --name app app"
+        sh "docker run -d -p 9000:9000 --name app app"
         echo "deployment successful"
       }
     }
