@@ -2,5 +2,5 @@ FROM python
 WORKDIR /mac
 COPY . .
 RUN pip install flask
-EXPOSE 5000
+EXPOSE 9000
 CMD python server.py
