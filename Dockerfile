@@ -1,5 +1,5 @@
 FROM python
-WORKDIR /app
+WORKDIR /mac
 COPY . .
 RUN pip install flask
 EXPOSE 5000
