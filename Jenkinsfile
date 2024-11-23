@@ -3,7 +3,7 @@ agent { any }
   stages { 
     stage("code"){
       steps{
-        git url :"https://github.com/Machhindra-9/pythonCICD.git"
+        git url :"https://github.com/Machhindra-9/pythonCICD.git",
             branch :"master"
       }
     }
